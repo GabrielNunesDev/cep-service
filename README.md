@@ -53,7 +53,7 @@ docker compose up -d
 Inicia a aplicação:
 
 ```bash
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 Com tudo rodando, acesse a documentação interativa pelo Swagger:
@@ -118,7 +118,7 @@ docker exec -it cep-postgres psql -U postgres -d cepservice -c "SELECT * FROM ce
 Para rodar os testes unitários:
 
 ```bash
-mvn test
+./mvnw test
 ```
 
 O projeto tem 18 testes cobrindo as camadas de Service, Controller e Client.
