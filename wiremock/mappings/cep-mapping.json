@@ -1,0 +1,205 @@
+{
+  "mappings": [
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/01001000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "01001-000", "logradouro": "Praça da Sé", "complemento": "lado ímpar",
+          "bairro": "Sé", "localidade": "São Paulo", "uf": "SP", "ibge": "3550308", "ddd": "11"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/20040020" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "20040-020", "logradouro": "Avenida Rio Branco", "complemento": "",
+          "bairro": "Centro", "localidade": "Rio de Janeiro", "uf": "RJ", "ibge": "3304557", "ddd": "21"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/30130010" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "30130-010", "logradouro": "Avenida Afonso Pena", "complemento": "",
+          "bairro": "Centro", "localidade": "Belo Horizonte", "uf": "MG", "ibge": "3106200", "ddd": "31"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/40020010" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "40020-010", "logradouro": "Avenida Sete de Setembro", "complemento": "",
+          "bairro": "Centro", "localidade": "Salvador", "uf": "BA", "ibge": "2927408", "ddd": "71"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/50010000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "50010-000", "logradouro": "Rua do Sol", "complemento": "",
+          "bairro": "Santo Antônio", "localidade": "Recife", "uf": "PE", "ibge": "2611606", "ddd": "81"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/60025000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "60025-000", "logradouro": "Avenida Tristão Gonçalves", "complemento": "",
+          "bairro": "Centro", "localidade": "Fortaleza", "uf": "CE", "ibge": "2304400", "ddd": "85"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/70040010" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "70040-010", "logradouro": "Esplanada dos Ministérios", "complemento": "Bloco A",
+          "bairro": "Zona Cívico-Administrativa", "localidade": "Brasília", "uf": "DF", "ibge": "5300108", "ddd": "61"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/80010010" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "80010-010", "logradouro": "Rua XV de Novembro", "complemento": "",
+          "bairro": "Centro", "localidade": "Curitiba", "uf": "PR", "ibge": "4106902", "ddd": "41"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/88010000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "88010-000", "logradouro": "Rua Felipe Schmidt", "complemento": "",
+          "bairro": "Centro", "localidade": "Florianópolis", "uf": "SC", "ibge": "4205407", "ddd": "48"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/90010150" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "90010-150", "logradouro": "Rua dos Andradas", "complemento": "",
+          "bairro": "Centro Histórico", "localidade": "Porto Alegre", "uf": "RS", "ibge": "4314902", "ddd": "51"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/69010010" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "69010-010", "logradouro": "Avenida Eduardo Ribeiro", "complemento": "",
+          "bairro": "Centro", "localidade": "Manaus", "uf": "AM", "ibge": "1302603", "ddd": "92"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/66010000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "66010-000", "logradouro": "Avenida Presidente Vargas", "complemento": "",
+          "bairro": "Campina", "localidade": "Belém", "uf": "PA", "ibge": "1501402", "ddd": "91"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/49010000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "49010-000", "logradouro": "Rua João Pessoa", "complemento": "",
+          "bairro": "Centro", "localidade": "Aracaju", "uf": "SE", "ibge": "2800308", "ddd": "79"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/57020000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "57020-000", "logradouro": "Rua do Comércio", "complemento": "",
+          "bairro": "Centro", "localidade": "Maceió", "uf": "AL", "ibge": "2704302", "ddd": "82"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/58010000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "58010-000", "logradouro": "Avenida Epitácio Pessoa", "complemento": "",
+          "bairro": "Centro", "localidade": "João Pessoa", "uf": "PB", "ibge": "2507507", "ddd": "83"
+        }
+      }
+    },
+    {
+      "priority": 1,
+      "request": { "method": "GET", "url": "/cep/59010000" },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "cep": "59010-000", "logradouro": "Avenida Rio Branco", "complemento": "",
+          "bairro": "Cidade Alta", "localidade": "Natal", "uf": "RN", "ibge": "2408102", "ddd": "84"
+        }
+      }
+    },
+    {
+      "priority": 10,
+      "request": { "method": "GET", "urlPattern": "/cep/[0-9]{8}" },
+      "response": {
+        "status": 404,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": { "erro": "CEP não encontrado" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: cep-postgres
+    environment:
+      POSTGRES_DB: cepservice
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - cep-network
+
+  wiremock:
+    image: wiremock/wiremock:3.5.4
+    container_name: cep-wiremock
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./wiremock:/home/wiremock
+    command: --verbose
+    networks:
+      - cep-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: cep-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - cep-network
+
+volumes:
+  postgres_data:
+
+networks:
+  cep-network:
+    driver: bridge
